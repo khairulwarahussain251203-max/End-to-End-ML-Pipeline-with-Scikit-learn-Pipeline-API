@@ -86,10 +86,9 @@ predictions = model.predict(new_customer_df)
 ## 📂 Project Structure
 
 ```text
-├── churn_prediction_pipeline.ipynb   # Main development notebook
-├── best_churn_prediction_pipeline.joblib # Final serialized model
+├── code.ipynb   # Main development notebook
+├── best_churn_prediction_pipeline_Random_Forest.joblib # Final serialized model
 ├── README.md                         # Project documentation
-└── requirements.txt                  # Dependency list
 
 ```
 
