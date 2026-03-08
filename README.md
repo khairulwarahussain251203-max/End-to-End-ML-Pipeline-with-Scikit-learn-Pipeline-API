@@ -1,33 +1,47 @@
-```markdown
-# End-to-End ML Pipeline for Customer Churn Prediction
-
-## 📋 Task Overview
+End-to-End ML Pipeline for Customer Churn Prediction
+📋 Task Overview
 This project implements a production-ready machine learning pipeline for predicting customer churn in a telecommunications company. The pipeline is built using scikit-learn's Pipeline API, ensuring reusability and maintainability.
 
-## 🎯 Objective
+🎯 Objective
 Build a reusable and production-ready machine learning pipeline that can:
-- Preprocess customer data automatically
-- Train multiple classification models
-- Perform hyperparameter tuning
-- Export the complete pipeline for deployment
 
-## 📊 Dataset
-**Dataset:** Telco Customer Churn Dataset (churn-bigml-80.csv)
-- **Records:** 2,666 customers
-- **Features:** 20 attributes including:
-  - Customer demographics (State, Area code)
-  - Account information (Account length, International plan, Voice mail plan)
-  - Usage patterns (Total day/minutes/calls/charge, Evening/Night/International usage)
-  - Customer service interactions (Customer service calls)
-  - **Target:** Churn (Boolean: True/False)
+Preprocess customer data automatically
 
-## 🛠️ Technologies Used
-- **Python 3.12**
-- **scikit-learn** - ML pipeline, preprocessing, models, GridSearchCV
-- **pandas** - Data manipulation and analysis
-- **numpy** - Numerical operations
-- **matplotlib/seaborn** - Data visualization
-- **joblib** - Model export and serialization
+Train multiple classification models
+
+Perform hyperparameter tuning
+
+Export the complete pipeline for deployment
+
+📊 Dataset
+Dataset: Telco Customer Churn Dataset (churn-bigml-80.csv)
+
+Records: 2,666 customers
+
+Features: 20 attributes including:
+
+Customer demographics (State, Area code)
+
+Account information (Account length, International plan, Voice mail plan)
+
+Usage patterns (Total day/minutes/calls/charge, Evening/Night/International usage)
+
+Customer service interactions (Customer service calls)
+
+Target: Churn (Boolean: True/False)
+
+🛠️ Technologies Used
+Python 3.12
+
+scikit-learn - ML pipeline, preprocessing, models, GridSearchCV
+
+pandas - Data manipulation and analysis
+
+numpy - Numerical operations
+
+matplotlib/seaborn - Data visualization
+
+joblib - Model export and serialization
 
 ## 📁 Project Structure
 ```
