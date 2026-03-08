@@ -139,7 +139,3 @@ predictions = model.predict(new_customer_df)
 This project is for educational purposes as part of the internship program.
 
 ```
-
-Would you like me to generate the `requirements.txt` file content as well to complete your repository?
-
-```
