@@ -14,7 +14,8 @@ As part of the AI/ML Engineering Internship at **DevelopersHub Corporation**, th
 * **Source:** Telco Customer Churn Dataset (`churn-bigml-80.csv`)
 * **Size:** 2,666 customer records
 * **Target Variable:** `Churn` (Boolean: True/False)
-* **Key Features:** * **Account Info:** State, Area code, Account length.
+* **Key Features:**
+    * **Account Info:** State, Area code, Account length.
     * **Plans:** International plan, Voice mail plan.
     * **Usage:** Total day/eve/night/intl (minutes, calls, and charges).
     * **Engagement:** Customer service calls.
@@ -61,7 +62,36 @@ git clone <your-repo-link>
 cd End-to-End-ML-Pipeline
 pip install -r requirements.txt
 
-Here is the final section of your project documentation, formatted specifically for your **GitHub README** or **Jupyter Notebook** summary. I have used a clean, hierarchical structure that highlights your analytical skills and forward-thinking approach to the project.
+```
+
+### 2. Run the Notebook
+
+Open `churn_prediction_pipeline.ipynb` in Jupyter or VS Code. Ensure your dataset is placed in the directory specified in the data loading cell.
+
+### 3. Production Inference
+
+You can load the saved pipeline in any Python script without needing to manually preprocess new data:
+
+```python
+import joblib
+
+# Load the complete production-ready pipeline
+model = joblib.load('best_churn_prediction_pipeline_Random_Forest.joblib')
+
+# Predict directly on raw data
+predictions = model.predict(new_customer_df)
+
+```
+
+## 📂 Project Structure
+
+```text
+├── churn_prediction_pipeline.ipynb   # Main development notebook
+├── best_churn_prediction_pipeline.joblib # Final serialized model
+├── README.md                         # Project documentation
+└── requirements.txt                  # Dependency list
+
+```
 
 ---
 
@@ -84,8 +114,6 @@ Here is the final section of your project documentation, formatted specifically 
 ---
 
 ## 🔧 Future Improvements
-
-To transition this from an internship project to a commercial-grade solution, the following enhancements are proposed:
 
 ### 1. Model & Data Enhancements
 
@@ -110,6 +138,8 @@ To transition this from an internship project to a commercial-grade solution, th
 
 This project is for educational purposes as part of the internship program.
 
----
+```
 
-**Would you like me to generate a `requirements.txt` file based on these technologies so your GitHub repository is fully "Plug-and-Play"?**
+Would you like me to generate the `requirements.txt` file content as well to complete your repository?
+
+```
