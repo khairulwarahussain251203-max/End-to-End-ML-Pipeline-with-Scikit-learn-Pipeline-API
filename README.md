@@ -130,12 +130,10 @@ predictions = model.predict(new_customer_df)
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Developed as part of the AI/ML Engineering Internship at DevelopersHub Corporation.**
 
 ## 📄 License
 
 This project is for educational purposes as part of the internship program.
-
-```
